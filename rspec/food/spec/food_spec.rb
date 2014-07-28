@@ -2,6 +2,6 @@ require 'food'
 
 describe Food do
   it "is edible" do
-    expect(Food.edible?).to be true
+    expect(Food.new.edible?).to be true
   end
 end

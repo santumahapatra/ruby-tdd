@@ -1,6 +1,6 @@
 class Food
 
-  def self.edible?
+  def edible?
     true
   end
 end
